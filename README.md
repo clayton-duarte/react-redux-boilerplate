@@ -21,9 +21,9 @@ Projeto [nome do seu projeto] responsável por [o que seu projeto faz?].
 
 ## Gerenciando variáveis de ambiente
 
-Renomeie o arquivo .env.example para .env, as variáveis criadas com o prefixo REACT_APP automaticamente podem ser acessadas de qualquer lugar da aplicação via process.env.REACT_APP_SECRET_CODE_EXAMPLE. 
+Renomeie o arquivo .env.example para .env, as variáveis criadas com o prefixo REACT_APP automaticamente podem ser acessadas de qualquer lugar da aplicação via process.env.REACT_APP_ENV. 
 Todo e qualquer conteúdo sensível como chaves de acesso a aplicação, banco de dados, etc, devem ser armazenados neste arquivo que não deve ser commitado.
-Por padrão, nesta versão inicial, estamos considerando apenas o ambiente de desenvolvimento e o deploy para produção, mas podem ser criados novos environments conforme a necessidade.
+Para alterar os environments basta alterar na .env, temos os ambientes production, staging e development previstos.
 
 ## Urls
 
