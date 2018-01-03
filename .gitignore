@@ -33,3 +33,4 @@ node_modules
 # Pedro Settings
 .env
 build
+.env.example
