@@ -7,6 +7,14 @@ Projeto [nome do seu projeto] responsável por [o que seu projeto faz?].
 - Seu Nome <seu@email.com>
 - Colega de Time <colega@email.com>
 
+## Instruções de uso variáveis de ambiente
+
+### Conhecendo o .env
+
+Renomeie o arquivo .env.example para .env, as variáveis criadas com o prefixo REACT_APP automaticamente podem ser acessadas de qualquer lugar da aplicação via process.env.REACT_APP_ENV. 
+Todo e qualquer conteúdo sensível como chaves de acesso a aplicação, banco de dados, devem ser armazenados neste arquivo que não deve ser commitado.
+Para alterar os environments basta alterar na .env, temos os ambientes production, staging e development previstos.
+
 ## Rodando o projeto
 
 - `npm start`: inicia o servidor em desenvolvimento.
@@ -18,12 +26,6 @@ Projeto [nome do seu projeto] responsável por [o que seu projeto faz?].
 ## Preparando para produção
 
 - `npm run build`: prepara um pacote otimizado para produção.
-
-## Gerenciando variáveis de ambiente
-
-Renomeie o arquivo .env.example para .env, as variáveis criadas com o prefixo REACT_APP automaticamente podem ser acessadas de qualquer lugar da aplicação via process.env.REACT_APP_ENV. 
-Todo e qualquer conteúdo sensível como chaves de acesso a aplicação, banco de dados, etc, devem ser armazenados neste arquivo que não deve ser commitado.
-Para alterar os environments basta alterar na .env, temos os ambientes production, staging e development previstos.
 
 ## Urls
 

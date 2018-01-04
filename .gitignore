@@ -31,6 +31,5 @@ node_modules
 .DS_Store
 
 # Pedro Settings
-.env
+.env*
 build
-.env.example
